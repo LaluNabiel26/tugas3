@@ -1,7 +1,3 @@
-def print_pattern(n):
-    for i in range(n):
-        spaces = ' ' * (i * 3)
-        stars = '* ' * (n - i)
-        print(spaces + stars)
-n = 7
-print_pattern(n)
+tinggi = 10
+for i in range(tinggi, 0, -1):
+    print(' ' * (tinggi - i) + '*' * i)
